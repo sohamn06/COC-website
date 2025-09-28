@@ -1,0 +1,425 @@
+@font-face {
+    font-family: 'Supercell Headline';
+    src: url("../assets/vertopal.com_supercellheadline-heavy.ae61f14f.ttf");
+}
+
+@font-face {
+    font-family: 'Supercell text_regular';
+    src: url("./assets/supercelltext_light.ttf");
+}
+
+@font-face {
+    font-family: 'Supercell text_bold';
+    src: url("./assets/supercelltext_bold.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body,html{
+    height: 100%;
+    width: 100%;
+      
+}
+
+
+
+.home{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    height: 10vh;
+    width: 85vw;
+    background-color: black;
+    margin-left: 7.5vw;
+    justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: fixed;
+    z-index: 1000;
+}
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    /* justify-content:flex-start; */
+    align-items: center;
+    
+}
+.nav-left a{
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 16px;
+    color: grey;
+    font-family: "Supercell text_regular";
+    font-weight: bold;
+    
+    
+
+}
+
+.nav a:hover{
+    color: white;
+
+}
+
+    
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    margin: 0 15px;
+  
+    
+}
+
+.nav-right img{
+    height: 25px;
+    margin: 0 15px;
+    
+}
+
+.nav-right a:hover img{
+    filter: brightness(0) invert(1);
+}
+
+
+.hero{
+
+    
+    font-family: 'Supercell Headline';
+    height: 75%;
+    width: 100%;
+    background-color: burlywood;
+    background-image: url("./assets/frontpage_hero.8bc64969.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.hero p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.hero h1{
+    color: black;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.hero button{
+    cursor: pointer;
+    background-color:#2d85f3;
+    border-radius: 25px;
+    padding: 10px ;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: hidden black;
+
+    
+}
+.hero a{
+    text-decoration: none;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 60px 0 0 0 ;
+
+}
+
+.c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px 15px 15px;
+    /* height: 500px; */
+    width: 600px;
+    /* background-color: turquoise; */
+    
+
+}
+.c img{
+    height: 450px;
+    width: 580px;
+}
+.c a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    
+    margin: 10px;
+    font-family: "Supercell text_regular";
+    text-align: center;
+    
+}
+
+.c h{
+    font: 15px 'Supercell text_bold';
+    text-transform: uppercase;
+    color: hotpink;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    margin: 30px 0;
+
+}
+
+
+.btn button{
+    cursor: pointer;
+    color: white;
+    background-color: #2d85f3;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+
+    text-transform: uppercase;
+    font-family: "Supercell text_bold";
+
+}
+
+.games{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: antiquewhite;
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./assets/bg_wmg_brawlstars_m.7b2950df\ \(2\).webp");
+    margin-top: 40px;
+    
+}
+
+.games img{
+    height: 600px;
+    margin-right: 120px;
+}
+
+.g{
+    display: flex;
+    flex-direction: column;
+    margin-left: 170px ;
+    
+
+}
+
+.g h1{
+    font-family: "Supercell Headline";
+    color: white;
+    
+}
+
+.g p{
+    font-family: "Supercell text_regular";
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    
+
+}
+.btn1{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Supercell text_bold";
+    text-transform: uppercase;
+    margin-top: 50px;
+
+}
+
+.careers{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #2d85f3;
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+
+.careers img{
+    height: 600px;
+    margin-left: 170px;
+
+}
+
+.ca{
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+    margin-left: 70px;
+    
+
+}
+
+.ca h1{
+    font-family: "Supercell Headline";
+    color: white;
+    
+}
+
+.ca p{
+    font-family: "Supercell text_regular";
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    
+
+}
+
+.foot1{
+    display: flex;
+    flex-direction: row;
+    background-color: black;    
+    height: 20vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;;
+}
+
+.foot1 h5{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.f1-left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    line-height: 2.5;
+}
+.f1icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+   
+    
+}
+
+.f1icons img{
+    height: 25px;
+    width: 28px;
+    margin-right: 20px;
+}
+
+.f1-right{
+    display:flex ;
+    flex-direction: row;
+    margin-right: 100px;
+    
+}
+
+.f1-right img{
+    height: 50px;
+    margin-left: 15px;
+}
+
+.line{
+    
+    width: 85vw;
+    background-color: grey; /* A dark gray for a subtle line */
+    margin-left: 102px;
+    height: 0.7px;
+    border: none;
+
+    
+
+}
+
+
+.footer{
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    
+}
+
+.foot2{
+    /* display: flex; */
+    height: 40vh;
+    width: 100%;
+    background-color: black;
+}
+.f2-top{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    margin: 25px 0 0  100px;
+    flex-wrap: wrap;
+
+}
+
+.f2-top a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 13.5px;
+    margin-right: 20px;
+}
+
+.f2-bottom{
+    display: flex;
+    flex-direction: row;
+    margin-top: -25px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.f2-bottom p{
+    color: grey;
+    font-size: 13.5px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    font-weight:normal;
+    margin-left: 100px;
+}
+.f2-bottom a{
+    margin: 20px  100px 0 0;
+}
